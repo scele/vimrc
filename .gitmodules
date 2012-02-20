@@ -4,3 +4,12 @@
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = git://github.com/tpope/vim-fugitive.git
+[submodule "bundle/vim-haskell"]
+	path = bundle/vim-haskell
+	url = git://github.com/wlangstroth/vim-haskell.git
+[submodule "bundle/haskellmode"]
+	path = bundle/haskellmode
+	url = git://github.com/kevinstreit/VIM-Haskell.git
+[submodule "bundle/haskell-conceal"]
+	path = bundle/haskell-conceal
+	url = git://github.com/Twinside/vim-haskellConceal.git
