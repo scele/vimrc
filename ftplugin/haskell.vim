@@ -1,4 +1,5 @@
-let g:haddock_browser="xdg-open"
+let g:haddock_browser="/opt/google/chrome/google-chrome"
+let g:haddock_docdir="/home/lpeltonen/Documents/ghc/docs/6.12.1/html"
 compiler ghc
 
 function! s:GHCiOp(type)
@@ -20,4 +21,10 @@ nnoremap <buffer> <silent> <F11> :GHCi <C-r>=getline(".")<cr><cr>
 vnoremap <buffer> <silent> <F11> :<C-U>call <SID>GHCiOp(visualmode())<cr>
 nnoremap <silent> <buffer> <leader>e :set operatorfunc=<SID>GHCiOp<cr>g@
 vnoremap <silent> <buffer> <leader>e :<C-U>call <SID>GHCiOp(visualmode())<cr>
+
+set expandtab
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set autoindent
 
