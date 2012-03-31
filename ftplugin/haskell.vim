@@ -1,4 +1,5 @@
 let g:haddock_browser="xdg-open"
+let g:no_haskell_conceal=1
 compiler ghc
 
 function! s:GHCiOp(type)
