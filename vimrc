@@ -9,7 +9,7 @@ syntax on
 filetype plugin indent on
 
 " highlight end of line whitespace, etc
-set listchars=nbsp:_,tab:>\ ,extends:»,precedes:«,trail:·  " ,eol:¶
+set listchars=nbsp:_,tab:>\ ,trail:~  " ,eol:¶
 set list
 hi SpecialKey guifg=yellowgreen ctermfg=darkgreen " nbsp, tab, trail
 hi NonText guifg=yellowgreen ctermfg=darkgreen " eol, extends, precedes
