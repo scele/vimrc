@@ -38,3 +38,7 @@ set softtabstop=4
 set shiftwidth=4
 
 au BufNewFile,BufRead *.less set filetype=less
+
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
