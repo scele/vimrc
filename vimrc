@@ -66,6 +66,21 @@ function HtmlStyle()
   set shiftwidth=2
   set expandtab
 endfunction
+function TxtStyle()
+  set tabstop=4
+  set softtabstop=4
+  set shiftwidth=4
+  set expandtab
+  set formatoptions=tna
+  set textwidth=80
+  set nopaste
+  set formatlistpat=^\\s*(*[0-9*]\\+[\\]:.)}\\t\ ]\\s*
+endfunction
+
 
 au BufRead,BufNewFile */kernel/* call KernelStyle()
+au BufRead,BufNewFile */nouveau/* call KernelStyle()
 au BufRead,BufNewFile *.html call HtmlStyle()
+au BufRead,BufNewFile *.txt call TxtStyle()
+set paste
+set ruler
