@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+ln -s ../bundle/pathogen/autoload/pathogen.vim autoload/pathogen.vim
+ln -s ~/.vim/vimrc ~/.vimrc
+ln -s ~/.vim/gvimrc ~/.gvimrc
