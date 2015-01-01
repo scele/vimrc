@@ -1,0 +1,18 @@
+[color]
+    ui = auto
+    ui = true
+[user]
+    name = Lauri Peltonen
+    email = lauri.peltonen@iki.fi
+[core]
+    editor = vim
+    excludesfile = ~/.gitignore_global
+[alias]
+    graph = log --graph --oneline --decorate
+    com = commit
+    co = checkout
+    cp = cherry-pick
+    l = log --decorate
+    l1 = log --format=\"%Cblue %cd %h %an%Creset %s %Cred%d\"
+    r = rebase
+    ri = rebase -i
