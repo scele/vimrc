@@ -1,5 +1,6 @@
 let g:haddock_browser="/opt/google/chrome/google-chrome"
 let g:haddock_docdir="/home/lpeltonen/Documents/ghc/docs/6.12.1/html"
+"let g:haddock_browser="xdg-open"
 compiler ghc
 
 function! s:GHCiOp(type)

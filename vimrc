@@ -11,7 +11,8 @@ filetype plugin indent on
 " highlight end of line whitespace, etc
 "set listchars=nbsp:_,tab:>\ ,extends:»,precedes:«,trail:·  " ,eol:¶
 "set listchars=nbsp:_,tab:>\ ,extends:»,precedes:«,trail:·  " ,eol:¶
-set listchars=nbsp:_,tab:>\ 
+"set listchars=nbsp:_,tab:>\ 
+set listchars=nbsp:_,tab:>\ ,trail:~  " ,eol:¶
 set list
 "hi SpecialKey guifg=yellowgreen ctermfg=darkgreen " nbsp, tab, trail
 "hi NonText guifg=yellowgreen ctermfg=darkgreen " eol, extends, precedes
@@ -48,6 +49,21 @@ set makeprg=amake.sh\ mm
 "set shiftwidth=2
 "
 "kernel
+au BufNewFile,BufRead *.less set filetype=less
+
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+
+
+set textwidth=79
+set noexpandtab
+set autoindent
+set tabstop=8
+set softtabstop=8
+set shiftwidth=8
+
+
 function KernelStyle()
   set tabstop=8
   set softtabstop=8

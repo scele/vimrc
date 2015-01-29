@@ -10,6 +10,6 @@
 [submodule "bundle/haskellmode"]
 	path = bundle/haskellmode
 	url = git://github.com/kevinstreit/VIM-Haskell.git
-[submodule "bundle/haskell-conceal"]
-	path = bundle/haskell-conceal
-	url = git://github.com/Twinside/vim-haskellConceal.git
+[submodule "bundle/coffee-script"]
+	path = bundle/coffee-script
+	url = git://github.com/kchmck/vim-coffee-script.git
